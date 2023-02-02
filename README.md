@@ -12,8 +12,11 @@ This is an admin template built with React and TypeScript, using Material UI.
 
 - [fortawesome/react-fontawesome](https://github.com/FortAwesome/react-fontawesome)  fortawesome/react-fontawesome - React component for Font Awesome 5
 - [reduxjs/toolkit](https://github.com/FortAwesome/react-fontawesome)  - A set of utilities for setting up and working with Redux
--  [react-redux](https://react-redux.js.org/)  - Official React bindings for Redux 
--  [react-router-dom](react-router-dom)  - DOM bindings for React Router 
+- [@mui/material](https://github.com/mui-org/material-ui) - Material UI components
+[axios](https://github.com/axios/axios) - Promise-based HTTP client
+- [formik](https://github.com/jaredpalmer/formik) - A form library for React
+- [moment](https://momentjs.com/) - A JavaScript library for parsing, validating, manipulating, and formatting dates
+- [react-redux](https://react-redux.js.org/) - Official React bindings for Redux
 
 ## Scripts
 - `yarn dev`: Runs the development server with hot-module replacement
