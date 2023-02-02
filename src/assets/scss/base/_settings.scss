@@ -1,0 +1,23 @@
+:root{
+
+
+    --border-radius:13px;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    --box-shadow-variant:rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@mixin devices ($breakpoint) { //the name of the mixin is devices
+    // Tablet or superior
+    @if $breakpoint == tablet {    
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+ 
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: 1000px) {
+      @content;
+    }
+  }
+
+}
